@@ -43,7 +43,7 @@ cd portfolio
 
 📬 تواصل معي
 
-👉 [💼 LinkedIn]((https://www.linkedin.com/in/ahmedrabea886/))
+👉 [💼 LinkedIn](https://www.linkedin.com/in/ahmedrabea886/)
 
 
 📧 البريد الإلكتروني:aarr882004@gmail.com
