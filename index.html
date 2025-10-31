@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>ملفي الشخصي - أحمد ربيع</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <div class="logo">AM</div>
+
+      <a href="#menu" class="menu-icon"><i class="fa-solid fa-bars"></i></a>
+
+      <nav id="menu">
+        <!-- <a href="#" class="close-bg"></a> -->
+
+        <a href="#" class="close-icon"><i class="fa-solid fa-xmark"></i></a>
+
+        <ul>
+          <li><a href="#hero">الرئيسية</a></li>
+          <li><a href="#about_me">عني</a></li>
+          <li><a href="#projects-section">المشاريع</a></li>
+          <li><a href="#skills-section">المهارات</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+
+    <section class="hero" id="hero">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/921/921071.png"
+        alt="avatar"
+      />
+      <h1>مرحباً، أنا <span>أحمد ربيع</span></h1>
+      <p>طالب علوم حاسب شغوف بتطوير تطبيقات الموبايل باستخدام Flutter</p>
+
+      <div class="buttons">
+        <a href="#projects-section" class="btn btn--primary">شاهد أعمالي</a>
+        <a href="#contact" class="btn btn--secondary">تواصل معي</a>
+      </div>
+
+      <div class="social">
+        <a href="https://github.com/AhmedRabea4458" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/ahmedrabea886/" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="mailto:aarr882004@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+
+      <div class="arrow-down-container">
+        <i class="fa-solid fa-arrow-down arrow-down"></i>
+      </div>
+    </section>
+    <br />
+    <!-- About Me Section -->
+
+    <div class="about_me" id="about_me">
+      <h2>من أنا</h2>
+
+      <div class="about_content">
+        <div class="pragraphs">
+          <p>
+            مرحباً! أنا طالب في علوم الحاسب وشغوف بتطوير تطبيقات الموبايل. تعلمت
+            عدة لغات برمجة (C++, C#, Java, JavaScript, Dart) وأركز حالياً على
+            Flutter.
+          </p>
+          <p>
+            أحب تحويل الأفكار إلى تطبيقات عملية باستخدام Flutter و Firebase.
+            أعمل على تطوير مهاراتي في State Management (Cubit) وتكامل APIs لبناء
+            تطبيقات قوية وسريعة.
+          </p>
+          <p>
+            هدفي هو أن أصبح Flutter Developer محترف وأساهم في بناء تطبيقات
+            موبايل تساعد الناس وتوفر تجربة مستخدم رائعة.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>2+</h3>
+            <p>سنة تعلم</p>
+          </div>
+          <div class="stat">
+            <h3>3</h3>
+            <p>مشاريع شخصية</p>
+          </div>
+          <div class="stat">
+            <h3>10+</h3>
+            <p>تقنية متعلمة</p>
+          </div>
+          <div class="stat">
+            <h3>∞</h3>
+            <p>شغف وطموح</p>
+          </div>
+        </div>
+      </div>
+      <div class="about_features">
+        <div class="feature">
+          <div class="icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h4>Flutter Developer</h4>
+          <p>متخصص في بناء تطبيقات موبايل حديثة باستخدام Flutter و Dart</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fa-solid fa-code"></i></div>
+          <h4>لغات متعددة</h4>
+          <p>خبرة في عدة لغات برمجة: C++, C#, Java, JavaScript, Dart</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h4>طالب طموح</h4>
+          <p>أدرس علوم الحاسب وأطبق ما أتعلمه في مشاريع عملية</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h4>حل المشكلات</h4>
+          <p>مهارة قوية في Problem Solving وإيجاد حلول برمجية فعالة</p>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section -->
+
+    <div id="projects-section">
+      <h2><b>أعمالي</b></h2>
+      <p>بعض المشاريع البسيطة التي قمت ببنائها أثناء رحلة تعلمي</p>
+      <div class="projects">
+        <div class="project">
+          <div class="img">
+            <img src="images/notes.png" alt="Notes App" />
+          </div>
+          <h3><b>تطبيق ملاحظاتي</b></h3>
+          <p>
+            تطبيق لإدارة <strong>الملاحظات اليومية</strong> باستخدام
+            <i>Flutter</i>، يتيح إضافة الملاحظات وتعديلها وحذفها، مع تخزين
+            البيانات <em>محليًا</em> أو عبر <b>Firebase</b>.
+          </p>
+          <div class="tags">
+            <span>Flutter</span>
+            <span>Hive</span>
+            <span>Dart</span>
+            <span>cubit</span>
+          </div>
+
+          <!-- <div class="buttons">
+            <a href="#" class="preview">معاينة</a>
+            <a href="#" class="code">الكود</a>
+          </div> -->
+        </div>
+
+        <div class="project">
+          <div class="img">
+            <img src="images/chat.png" alt="Chat App" />
+          </div>
+
+          <h3><b>تطبيق دردشة (Chat App)</b></h3>
+          <p>
+            تطبيق مراسلة فورية باستخدام <strong>Flutter</strong> و
+            <b>Firebase</b>، يحتوي على <i>تسجيل دخول</i>، ودردشات فورية، وحالة
+            أونلاين.
+          </p>
+          <div class="tags">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Dart</span>
+          </div>
+
+          <!-- <div class="buttons">
+            <a href="#" class="preview">معاينة</a>
+            <a href="#" class="code">الكود</a>
+          </div> -->
+        </div>
+
+        <div class="project">
+          <div class="img">
+            <img src="images/shopping.png" alt="ecommerce App" />
+          </div>
+
+          <h3><b>تطبيق متجر إلكتروني</b></h3>
+          <p>
+            تطبيق لعرض وشراء منتجات الهواتف مع
+            <strong>سلة مشتريات</strong> ونظام <i>تسجيل حسابات</i> للمستخدمين.
+          </p>
+          <div class="tags">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Dart</span>
+            <span>cubit</span>
+          </div>
+
+          <!-- <div class="buttons">
+            <a href="#" class="preview">معاينة</a>
+            <a href="#" class="code">الكود</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section -->
+
+    <div id="skills-section">
+      <h2><b>مهاراتي</b></h2>
+      <p>التقنيات التي أتقنها والتي أعمل على تطويرها</p>
+
+      <div class="skills">
+        <div class="skill">
+          <h3>لغات البرمجة</h3>
+          <p>
+            إطار عمل قوي لتطوير تطبيقات الجوال بقاعدة كود واحدة لأنظمة Android
+            وiOS.
+          </p>
+          <div class="progress-skill">
+            <span class="skill-name">Dart</span>
+            <div class="bar">
+              <div class="fill" style="width: 85%"></div>
+              <span class="percent">85%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">C++</span>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+              <span class="percent">75%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="bar">
+              <div class="fill" style="width: 70%"></div>
+              <span class="percent">70%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">C#</span>
+            <div class="bar">
+              <div class="fill" style="width: 65%"></div>
+              <span class="percent">65%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">Java</span>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+              <span class="percent">60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>Mobile & Web</h3>
+          <p>
+            خدمة متكاملة من Google لتخزين البيانات، المصادقة، والإشعارات
+            الفورية.
+          </p>
+          <div class="progress-skill">
+            <span class="skill-name">Flutter</span>
+            <div class="bar">
+              <div class="fill" style="width: 85%"></div>
+              <span class="percent">85%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">HTML / CSS</span>
+            <div class="bar">
+              <div class="fill" style="width: 80%"></div>
+              <span class="percent">80%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">Firebase</span>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+              <span class="percent">75%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">State Management (Cubit)</span>
+            <div class="bar">
+              <div class="fill" style="width: 70%"></div>
+              <span class="percent">70%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">APIs Integration</span>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+              <span class="percent">60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>الأدوات والمهارات</h3>
+          <p>
+            لغة برمجة مرنة وسريعة تُستخدم مع Flutter لبناء واجهات عصرية وسلسة.
+          </p>
+          <div class="progress-skill">
+            <span class="skill-name">Git / GitHub</span>
+            <div class="bar">
+              <div class="fill" style="width: 70%"></div>
+              <span class="percent">70%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">Problem Solving</span>
+            <div class="bar">
+              <div class="fill" style="width: 80%"></div>
+              <span class="percent">80%</span>
+            </div>
+          </div>
+          <div class="progress-skill">
+            <span class="skill-name">UI/UX Design</span>
+            <div class="bar">
+              <div class="fill" style="width: 65%"></div>
+              <span class="percent">65%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+
+    <div id="contact" class="contact">
+      <h2>تواصل معي</h2>
+      <h3>تواصل معي</h3>
+
+      <p>
+        سواء كان لديك سؤال، نصيحة، أو ترغب في التعاون في مشروع ما، أنا سعيد
+        بالتواصل معك!
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>البريد الإلكتروني</h4>
+              <p>aarr882004@email.com</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>الهاتف</h4>
+              <p>+201069909436</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>الموقع</h4>
+              <p>مصر</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <label>الاسم</label>
+          <input type="text" placeholder="أدخل اسمك" required />
+
+          <label>البريد الإلكتروني</label>
+          <input type="email" placeholder="أدخل بريدك الإلكتروني" required />
+
+          <label>الرسالة</label>
+          <textarea rows="4" placeholder="اكتب رسالتك هنا"></textarea>
+
+          <button type="submit" class="send-btn">
+            <i class="fa-solid fa-paper-plane"></i> إرسال الرسالة
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>صنع بواسطة/أحمد ربيع</p>
+
+      <div class="social">
+        <a href="https://github.com/AhmedRabea4458" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/ahmedrabea886/" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="mailto:aarr882004@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <p>&copy; 2025 جميع الحقوق محفوظة</p>
+    </footer>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuLinks = document.querySelectorAll('nav ul li a');
+  const sections = document.querySelectorAll('section, .about_me, #projects-section, #skills-section, #contact');
+  const headerOffset = 70; // ارتفاع الهيدر بالبيكسل
+
+  function setActiveLink() {
+    let index = sections.length;
+
+    while (--index && window.scrollY + headerOffset < sections[index].offsetTop) {}
+
+    menuLinks.forEach((link) => link.classList.remove('active'));
+    menuLinks[index].classList.add('active');
+  }
+
+  setActiveLink();
+  window.addEventListener('scroll', setActiveLink);
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // نمنع السلوك الافتراضي
+      const target = document.querySelector(this.getAttribute('href'));
+      const topPosition = target.offsetTop - headerOffset;
+
+      window.scrollTo({
+        top: topPosition,
+        behavior: 'smooth' // سلاسة في التحريك
+      });
+
+      menuLinks.forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+});
+
+
+</script>
+
+  </body>
+</html>
